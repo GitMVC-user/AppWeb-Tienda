@@ -11,7 +11,7 @@ namespace AppWeb_Tienda.Models
         [StringLength(50)]
         public DateTime FechaOrden { get; set; }
         public decimal Total { get; set; }
-
+public ss
         public ICollection<Usuario> Usuarios { get; set; }
     }
 }
