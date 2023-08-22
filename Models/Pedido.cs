@@ -2,7 +2,7 @@
 
 namespace AppWeb_Tienda.Models
 {
-    public class Pedido 
+    public class Pedido
     {
         public int PedidoID { get; set; }
 
@@ -10,8 +10,7 @@ namespace AppWeb_Tienda.Models
         [Required]
         [StringLength(50)]
         public DateTime FechaOrden { get; set; }
-        public decimal Total { get; set; }
-public ss
+        public decimal Total { get; set;
         public ICollection<Usuario> Usuarios { get; set; }
     }
 }
